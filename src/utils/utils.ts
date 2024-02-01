@@ -133,3 +133,11 @@ export function createElement<
     }
     return element;
 }
+
+export interface IActions {
+    onClick: () => void;
+}
+
+export interface ICardBasked {
+    itemIndex: number;
+}
